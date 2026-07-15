@@ -12,7 +12,7 @@ CORS(
         r"/*": {
             "origins": [
                 "http://localhost:8080",
-                "https://deeplung-ai.vercel.app/"
+                "https://deeplung-ai.vercel.app"
             ]
         }
     }

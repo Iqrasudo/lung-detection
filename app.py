@@ -1,7 +1,6 @@
 from ai_edge_litert.interpreter import Interpreter
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-from huggingface_hub import hf_hub_download
 from PIL import Image
 import numpy as np
 import io

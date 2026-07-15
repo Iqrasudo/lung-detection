@@ -11,7 +11,8 @@ CORS(
     resources={
         r"/*": {
             "origins": [
-                "http://localhost:8080"
+                "http://localhost:8080",
+                "https://deeplung-ai.vercel.app/"
             ]
         }
     }
